@@ -1,0 +1,43 @@
+.titleOfPage {
+    color: white;
+    left: -11px;
+    top: 30px;
+    border-bottom: 0.5px solid white;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 200px;
+    padding: 0;
+}
+
+#content {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+  
+    
+}
+
+#content > p {
+    text-align:  justify;
+    width: 25%;
+    color: white;
+  
+    
+}
+
+
+
+#text1 {
+  order: 1;
+}
+
+#text3 {
+ order: 30;
+}

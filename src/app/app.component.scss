@@ -1,0 +1,73 @@
+.navigace {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(114, 50, 167);
+  
+  position: relative;
+
+}
+.navigace>ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  flex-flow: row;
+  position: relative;
+  top: 10px;
+  font-size: 15pt;
+  width: 550px;
+  list-style: none;
+  margin: 0 auto;
+  left: 10px;
+
+}
+.homebtn {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: -45px;
+  filter: invert(100%);
+  top: -3px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 45px;
+  position: relative;
+  left: -8px;
+  padding-right: 15px;
+}
+.layer {
+  background-color: rgba(164, 24, 101, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#banner_title {
+  color: white;
+  margin-top: 0px;
+  position: relative;
+  
+  top: 38%;
+  font-size: 60pt;
+  color: rgba(255, 255, 255, 0.646);
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  padding-right: 60px;
+}
+
+#banner {
+  border-top: white 1px solid;
+  border-bottom: white 1px solid;
+  width: 100%;
+  height: 659px;
+  background-image: url("https://wallpaperaccess.com/full/97916.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -100px;
+  position: relative;
+}

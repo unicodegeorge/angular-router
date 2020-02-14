@@ -1,0 +1,60 @@
+#shop-content {
+display: flex;
+justify-content: space-evenly;
+width: 80%;
+left: 129px;
+position: relative;
+padding-bottom: 50px;
+padding-top: 50px;
+}
+.buyBtn {
+    position: relative;
+    bottom: -165px;
+    width: 102%;
+    height: 30px;
+    left: -2px;
+    background-color: white;
+    border: 1px solid white;
+}
+.shop-item {
+width: 200px;
+height: 200px;
+border: 2px solid white;
+background-color: black;
+position: relative;
+top: 0px;
+
+}
+
+.item-title-bar {
+    position: relative;
+    width: 102%;
+    height: 30px;
+    top: -10px;
+    left: -2px;
+    background-color: rgb(255, 255, 255);;
+}
+
+.item-title {
+    text-align: center;
+    position: relative;
+    top: 3px;
+   
+}
+
+#oneplsd {
+    background-image: url("https://zanerpharma.com/wp-content/uploads/2019/05/1plsd.png");
+    background-size: cover;
+    background-position-x: -30px;
+    background-position-y: 10px;
+}
+
+.title {
+    width: 200px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    position: relative;
+    left: 42%;
+    color: white;
+}
